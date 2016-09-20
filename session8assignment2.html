@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel ="stylesheet" type ="text/css" href ="stylestorage.css"/>
+    
+
+<meta charset="utf-8">
+
+</head>
+<body>
+    <script src ="app15.js"></script>
+<h1>MySelfieTech</h1>
+    
+    
+<div id = "wrapper">
+    <input type ="button" id ="button3"value ="Login" onclick="provideLoginDetails();"/>
+    <input type ="button" id ="button4"value ="SignUp" onclick="provideSignUpDetails();"/>
+    </div>
+    <div id="storeLogin" style="display: none;">
+        Login<br>
+<input type ="email" id ="input4" placeholder ="Email"/><br>
+<input type ="password" id ="input5" placeholder ="Password"/><br>
+<input type ="button" id ="button7"value ="submitQuery" onclick ="checkCred();"/><br>
+        <input type ="button" id ="button8"value ="back" onclick ="goToMainPage();"/>
+    </div>
+    <div id="storeSignUp" style="display: none;">
+        SignUp<br>
+    <input type ="text" id ="input1" placeholder ="Name"/><br>
+<input type ="email" id ="input2" placeholder ="Email"/><br>
+<input type ="password" id ="input3" placeholder ="Password"/><br>
+<input type ="button" id ="button5"value ="submitQuery" onclick ="store();"/><br>
+        <input type ="button" id ="button6"value ="back" onclick ="goToMainPage();"/>
+    </div>
+    <div id ="homepage" style="display: none;">
+    
+    Welcome to<span id ="username"></span><br><br>
+        <input type ="button" id ="button9"value ="LogOut" onclick ="goToMainPage();"/><br>
+    </div>
+
+</body>
+</html>
